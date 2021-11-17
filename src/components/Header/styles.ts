@@ -61,7 +61,7 @@ export const SectionPart2 = styled.section`
     justify-content: center;
     cursor: pointer;
     background-color: rgb(59, 59, 59);
-    border: 0;
+    border:0; 
     svg{
       width: 50%;
     }
@@ -69,5 +69,17 @@ export const SectionPart2 = styled.section`
 `;
 
 export const SectionPart3 = styled.section`
-  
+  display: flex;
+  align-items: center;
+  gap:20px;
+  svg{
+    fill: white;
+    cursor: pointer;
+    width:30px;
+  }
+  img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
 `;
