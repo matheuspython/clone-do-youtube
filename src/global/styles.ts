@@ -10,5 +10,6 @@ export default createGlobalStyle`
     height: 100%;
     background-color: rgba(33, 33, 33, 0.98);
     font-family: "Roboto", sans-serif;
+    color: white;
   }
 `
