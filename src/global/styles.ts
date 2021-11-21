@@ -12,6 +12,9 @@ export default createGlobalStyle`
     font-family: "Roboto", sans-serif;
     color: white;
   }
+  body {
+    overflow-y: hidden;
+  }
   ul{
     list-style-type: none;
   }
