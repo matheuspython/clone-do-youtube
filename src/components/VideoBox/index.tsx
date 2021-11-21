@@ -20,15 +20,17 @@ export const VideoBox: React.FC<VideoProps> = ({
 }) => {
   return (
     <Container>
-      <img src={img} alt="video do canal" />
-      <section>
-        <img src={imgCanal} alt="img do canal" />
-      </section>
-      <section>
-        <h1>{titulo}</h1>
-        <span>{nomeCanal}</span>
-        <p>{viws}</p>
-      </section>
+      <img className="tumb" src={img} alt="video do canal" />
+      <main>
+        <section className="first">
+          <img src={imgCanal} alt="img do canal" />
+        </section>
+        <section className="secund">
+          <h1>{titulo}</h1>
+          <span>{nomeCanal}</span>
+          <p>{viws}</p>
+        </section>
+      </main>
     </Container>
   )
 }
